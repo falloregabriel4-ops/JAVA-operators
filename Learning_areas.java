@@ -20,10 +20,10 @@ public class Learning_areas {
         //examples of arithmetics + , - , * , / , % .
         System.out.println("===== ARITHMETIC EXAMPLES =====");
           System.out.println("");
-        System.out.println("      35 + 23 = " + (35 + 20));
-        System.out.println("      35 - 23 = " + (35 - 20));
-        System.out.println("      35 * 23 = " + (35 * 20));
-        System.out.println("      35 / 23 = " + (35 / 20)); 
+        System.out.println("      35 + 23 = " + (35 + 23));
+        System.out.println("      35 - 23 = " + (35 - 23));
+        System.out.println("      35 * 23 = " + (35 * 23));
+        System.out.println("      35 / 23 = " + (35 / 23)); 
         System.out.println("      50 % 50 = " + (50 % 50)); 
           System.out.println("");
         System.out.println("===============================");
@@ -42,11 +42,21 @@ public class Learning_areas {
         int num1 = 10;
         int num2 = 20;
         
-        System.out.println("     Out Put Example: " + (num1  = num2));  
+        System.out.println("     Out Put Example: " + (num1  = num2));
+        num1 = 10;      // this lines like num1 and num2 resets the number so it woudnt use the number that the = output
+        num2 = 20;        
         System.out.println("     Out Put Example: " + (num1 += num2));
+        num1 = 10;
+        num2 = 20;
         System.out.println("     Out Put Example: " + (num1 -= num2));
+        num1 = 10;
+        num2 = 20;
         System.out.println("     Out Put Example: " + (num1 *= num2));  
+        num1 = 10;
+        num2 = 20;
         System.out.println("     Out Put Example: " + (num1 /= num2));
+        num1 = 10;
+        num2 = 20;
         System.out.println("     Out Put Example: " + (num1 %= num2));
         
           System.out.println("");
