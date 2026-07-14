@@ -58,6 +58,8 @@ public class Learning_areas {
         num1 = 10;
         num2 = 20;
         System.out.println("     Out Put Example: " + (num1 %= num2));
+        num1 = 10;
+        num2 = 20;   // this is the last reset so the future operators woudnt use it
         
           System.out.println("");
         System.out.println("===============================");
